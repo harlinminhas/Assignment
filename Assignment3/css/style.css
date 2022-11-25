@@ -1,0 +1,102 @@
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p,a,li{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background-color: #000;
+    grid-area: header;
+    color: #fff;
+}
+header > div{
+    flex-grow: 1;
+    height: 115px;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav > ul{
+    display: flex;
+    list-style: none;
+}
+header > nav > ul > li{
+    padding: 0px 15px;
+}
+header > nav > ul > li > a{
+    color: #fff;
+}
+
+.masthead{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../img/imag3.jpeg');
+    background-size: cover;
+    color: #000;
+}
+.masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masthead h1{
+    color: #000;
+    font-size: 3.5em;
+    text-align: center;
+}
+.home{
+    display: flex;
+}
+.home .image-1{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    align-items: center;
+  
+}
+.home .image-2{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    align-items: center;
+}
+.add-record h2{
+    margin-bottom: 15px;
+}
+.add-record a{
+    background-color: #004b87;;
+    color: #fff;
+    padding: 15px 35px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .25s linear;
+}
+.add-record a:hover{
+    background-color: #fff;
+    color: #004b87;
+    border: solid 2px #004b87;
+}
+.container{
+    padding: 5%;
+  }
+footer{  
+    padding: 5%;
+    background-color: #000;
+}
+footer h4{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
